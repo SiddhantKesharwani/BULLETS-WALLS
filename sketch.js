@@ -96,6 +96,11 @@ function draw() {
   
   //To draw the sprites
   drawSprites()
+   
+   stroke(50,229,229);
+  fill(50,229,229);
+  textSize(30);
+  text("Press ctrl+r to get different colours",500,350);
 
   fill("white");
   strokeWeight(0);
